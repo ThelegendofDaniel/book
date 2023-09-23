@@ -1,5 +1,5 @@
 <template>
-	<div>
-		<BookContainer />
-	</div>
+	<NuxtLayout>
+		<NuxtPage />
+	</NuxtLayout>
 </template>
