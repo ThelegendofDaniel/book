@@ -75,6 +75,7 @@
 		</Swiper>
 	</div>
 	<BookSlide />
+	<ReadingBooks />
 </template>
 
 <style lang="scss">
