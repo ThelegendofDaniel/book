@@ -14,9 +14,7 @@
 			><span class="mx-5 cursor-pointer">Mystery</span
 			><span class="mx-5 cursor-pointer">Fantasy</span>
 		</div>
-		<div
-			class="overflow-x-scroll books-container min-w-full flex w-96 h-96"
-		>
+		<div class="overflow-x-scroll books-container min-w-full flex h-96">
 			<Card
 				class="w-5/12 min-w-[180px] mx-5"
 				v-for="book in books"

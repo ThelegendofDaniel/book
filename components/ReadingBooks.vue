@@ -5,14 +5,14 @@
 			<div
 				v-for="readingBook in books"
 				:key="readingBook.id"
-				class="w-7/12 h-28 mx-2 cursor-pointer shadow-md justify-between inline-flex min-w-[70%]"
+				class="w-7/12 h-28 mx-5 cursor-pointer shadow-md justify-between inline-flex min-w-[70%]"
 			>
 				<img
 					src="../assets//images/psychology of money.jpg"
 					:alt="readingBook.title"
-					class="w-3/12"
+					class="w-20"
 				/>
-				<div class="ml-1 w-8/12 flex-col justify-between flex">
+				<div class="ml-1 pl-2 w-8/12 flex-col justify-between flex">
 					<div class="flex justify-between">
 						<span
 							class="px-3 font-bold inline-flex text-sm items-center bg-yellow-200 text-yellow-500 rounded-full"
