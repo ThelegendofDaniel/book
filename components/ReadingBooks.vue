@@ -5,7 +5,7 @@
 			<div
 				v-for="readingBook in books"
 				:key="readingBook.id"
-				class="w-7/12 h-28 mx-5 cursor-pointer shadow-md justify-between inline-flex min-w-[70%]"
+				class="w-7/12 sm:min-w-[320px] h-28 mx-5 cursor-pointer shadow-md justify-between inline-flex min-w-[70%]"
 			>
 				<img
 					src="../assets//images/psychology of money.jpg"

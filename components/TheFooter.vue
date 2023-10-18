@@ -1,6 +1,6 @@
 <template>
 	<footer
-		class="bottom-0 text-gray-500 bg-white justify-around text-center items-center fixed h-16 w-full shadow-md flex"
+		class="bottom-0 sm:hidden text-gray-500 bg-white justify-around text-center items-center fixed h-16 w-full shadow-md flex"
 	>
 		<NuxtLink class="flex flex-col items-center" to="/">
 			<span
